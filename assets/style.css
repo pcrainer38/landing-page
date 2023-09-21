@@ -7,21 +7,20 @@
     background-color: #0288D1;
     text-align: center;
 
-
 }
 
 .contact-links {
     color: black;
     background-color: #7C4DFFrine;
-    display: inline-block;
-    margin: 0;
+    display: flex;
+    flex-flow: row-reverse;
+    margin: 50px;
     padding: 0;
 }
 
 
 img {
     display: block;
-    width: 250px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
