@@ -2,5 +2,34 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.header {
+    color: white;
+    background-color: #0288D1;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    
+
+}
+
+.contact-links {
+    color: black;
+    background-color: #7C4DFFrine;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
 
 
+img {
+    display: block;
+    width: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-me {
+    text-align: center;
+    background-color: #7C4DFF;
+}
