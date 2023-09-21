@@ -7,7 +7,7 @@
 header {
     display: flex;
     flex-direction: row-reverse;
-    background-color: #327965;
+    background-color: #009688;
     padding: 30px;
     position: fixed;
     width: 100%
@@ -19,7 +19,7 @@ li {
 
 h1 {
     text-align: center;
-    background-color: rgb(145, 64, 221);
+    background-color: #673AB7;
     padding: 15px;
     font-size: 26px;
     margin-top: 75px;
@@ -42,7 +42,7 @@ figure {
 
 .contact-me {
     text-align: center;
-    background-color: #327965;
+    background-color: #009688;
     padding: 10px;
 }
 
