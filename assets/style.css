@@ -1,32 +1,52 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.header {
-    color: white;
-    background-color: #0288D1;
-    text-align: center;
-
-}
-
-.contact-links {
-    color: black;
-    background-color: #7C4DFFrine;
+header {
     display: flex;
-    flex-flow: row-reverse;
-    margin: 50px;
-    padding: 0;
+    flex-direction: row-reverse;
+    background-color: #327965;
+    padding: 30px;
+    position: fixed;
+    width: 100%
+} 
+
+li {
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(145, 64, 221);
+    padding: 15px;
+    font-size: 26px;
+    margin-top: 75px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
 }
 
 
-img {
+figure {
     display: block;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
+    padding: 40px;
 }
 
 .contact-me {
     text-align: center;
-    background-color: #7C4DFF;
+    background-color: #327965;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 75px;
+    text-align: center;
 }
