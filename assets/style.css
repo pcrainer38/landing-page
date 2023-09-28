@@ -10,11 +10,12 @@ header {
     background-color: #009688;
     padding: 30px;
     position: fixed;
-    width: 100vw;
+    width: 100%;
 } 
 
 li {
     display: inline;
+    padding: 0 5px;
 }
 
 h1 {
@@ -23,7 +24,6 @@ h1 {
     padding: 15px;
     font-size: 26px;
     margin-top: 75px;
-    width= 100vw;
 }
 
 main {
@@ -31,14 +31,22 @@ main {
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0;
+    width: 100%;
+}
+
+.header1 h1 {
+    width: 100%;
+    background-color: #673AB7;
+
 }
 
 
 figure {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
+    justify-content: center;
 }
 
 .contact-me {
@@ -51,4 +59,24 @@ figure {
 footer {
     margin-top: 75px;
     text-align: center;
+}
+
+@media screen and (max-width 800x) { */
+    header, .contact-me, footer {
+        width: 100vw;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        height: auto;
+        margin-right: 5px;
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
